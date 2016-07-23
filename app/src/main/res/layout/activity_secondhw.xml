@@ -56,14 +56,14 @@
                 android:background="@android:drawable/ic_menu_save" />
 
             <ImageView
-                android:id="@+id/wind_img"
+                android:id="@+id/img_leaf"
                 android:layout_width="128dp"
                 android:layout_height="128dp"
                 android:layout_below="@+id/not_bold_text"
                 android:layout_marginLeft="64dp"
                 android:layout_marginStart="64dp"
                 android:layout_marginTop="48dp"
-                android:background="@drawable/weather_wind" />
+                android:background="@drawable/leaf" />
 
             <TextView
                 android:id="@+id/center_text"
@@ -71,8 +71,8 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/not_bold_text"
                 android:layout_marginTop="64dp"
-                android:layout_toEndOf="@+id/wind_img"
-                android:layout_toRightOf="@+id/wind_img"
+                android:layout_toEndOf="@+id/img_leaf"
+                android:layout_toRightOf="@+id/img_leaf"
                 android:text="1234"
                 android:textSize="64sp"
                 android:textStyle="bold" />
@@ -81,7 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/center_text"
-                android:layout_toRightOf="@id/wind_img"
+                android:layout_toRightOf="@id/img_leaf"
                 android:text="cfm"
                 android:textSize="32sp"
                 android:textStyle="bold" />
