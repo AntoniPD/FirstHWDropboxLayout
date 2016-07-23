@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#01b"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dropbox"
+            android:layout_margin="70dp"
+            android:layout_centerHorizontal="true"
+
+            />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/img"
+            android:layout_marginLeft="60dp"
+            />
+        <EditText
+            android:id="@+id/emailbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/email"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="5dp"
+
+            />
+        <TextView
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/emailbox"
+            android:layout_marginLeft="60dp"
+            />
+        <EditText
+            android:id="@+id/passbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/pass"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="5dp"
+
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passbox"
+            android:background="#C0C0C0"
+            android:text="Log in"
+            android:textSize="20dp"
+            android:layout_marginLeft="280dp"
+            />
+        <TextView
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New to dropbox?Create a free account"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/login"
+            android:layout_marginLeft="70dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot your password?"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/help"
+            android:layout_marginLeft="120dp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
